@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // Replace with your OpenRouter API key (https://openrouter.ai/keys)
-const OPENROUTER_API_KEY = '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';
+const OPENROUTER_API_KEY = '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';
 
 // Forward AI requests to OpenRouter
 app.post('/analyze-image', async (req, res) => {
